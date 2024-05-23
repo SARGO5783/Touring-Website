@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+  <html>
+
+	<head>
+			<title>Explore with Us</title>
+			<link href= "project_styles.css" rel= "stylesheet" type= "text/css"/>
+	</head>
+	<body>
+		<header>
+		<table><tr>
+		<td>   <img src="tours.jpg" alt="logo" width="120" height="130"/> </td>
+		<td>	<h1>Tour Your way across the 50 States </h1> </td>
+			</tr>
+			</table>
+		</header>
+		
+			 <nav>   
+         <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tours.html">Tours Available</a></li>
+            <li><a href="book.html">Book a Tour</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+			<li><a href="covid.html">Covid-19 </a></li>
+         </ul>
+      </nav>
+
+		<section id = "first_topic">
+				<h2>Book a Tour </h2>
+				<h3> Please fill out the form below - Required values are marked by an asterisk (*) </h3>
+		</section>
+			
+		<section>
+	  
+			<form id="survey" name="survey"
+			action="http://www.LuxuriousTours.com/cgi-bin/survey"
+			method="post">
+	   
+			<fieldset id="custInfo">
+			<legend> Customer Information </legend>
+			
+			<h4>Which tour would you like to join? *</h4>
+             <select name="tourName"> 
+             <option value="yellowStone">Yellow Stone National Park</option>
+             <option value="california">California Grand Tour</option>
+			 <option value="niagraFalls">Niagra Falls</option>
+			 <option value="grandCanyon">The Grand Canyon</option>	</select>
+			
+					<br /> <br /> <br />
+			
+				<label for="custname">Name*</label>
+					<input name="custname" id="custname" 
+					placeholder= "First and last name"
+					required="required" />
+					
+					<br /> <br />
+					
+				<label for="street">Street Address</label>
+					<input name="street" id="street" />
+					
+				<label for="city">City</label>
+					<input name="city" id="city" value="Boston" />
+										
+				<label for="state">State</label>
+					<input name="state" id="state" value="MA" />
+					
+				<label for="zip">Zip Code</label>
+					<input name="zip" id="zip" type="text"
+					placeholder= "nnnnn (-nnnnn)"/>
+					
+					
+					<br /> <br />
+					
+				<label for="phone">Phone Number</label>
+					<input name="phone" id="phone" type="tel" 
+					placeholder= "(nnn)-nnn-nnnn" />
+					
+					
+				<label for="email">Email*</label>
+					<input name="email" id="email" type="email" 
+					 required="required" />
+					 
+					<br />	<br />
+				<label> Where did you hear about us? (select all that apply) </label>
+						<br />
+				<input type="checkbox" id="infoSource" name="src1" value="internet">
+				<label for="internet"> Internet </label><br>
+				
+				<input type="checkbox" id="infoSource" name="src2" value="news">
+				<label for="news"> Newspaper </label><br>
+				
+				<input type="checkbox" id="infoSource" name="src3" value="word">
+				<label for="word"> Word of Mouth </label><br>
+					
+				<input type="checkbox" id="infoSource" name="src4" value="other">
+				<label for="other"> Other </label><br> <br />
+				
+				
+					
+				<label for="familyMembers"> How many family members will be joining the tour? * </label>
+					<input name="familyMembers" id="familyMembers"
+						type="number" value="1"				
+						min="0" max="10" step="1" />
+						
+						<br /><br />
+				
+				<label for="comments"> Any additional information you would like to share: </label>
+					<textarea name="comments"> </textarea>
+					
+					<br />
+				<input type="submit" value="Submit">
+				<input type="Reset" value="Cancel" />
+			   </fieldset>
+	    </fieldset>
+			
+	</body>
+</html>

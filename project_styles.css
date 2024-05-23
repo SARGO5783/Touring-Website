@@ -1,0 +1,204 @@
+/*body-styles*/
+
+/*heading-styles*/
+ h1{
+	color: rgb(32,178,170);
+	font-size: 1.7em;
+	letter-spacing: 0.2em;
+	line-height: 1.8em;
+	text-indent: 1em;
+	text-align: center;
+	font-family: "Lucida Handwriting", "Courier New", monospace;
+
+}
+h2{
+	background-color: rgb(32,178,170);
+	color: white;
+	color: rgba(255,255,255,0.8);
+	letter-spacing: .4em;
+	line-height: 1.8em;
+	text-indent: 1em;
+	font-family: "Lucida Handwriting", "Courier New", monospace;
+}
+h3{
+	color: black;
+	letter-spacing: 0em;
+	line-height: 1.8em;
+	text-indent: 1em;
+	text-align: center;
+	width: 100%
+	font-family: "Times New Roman", Georgia, Garamond;
+}
+nav {
+width: 180px;
+float: left;
+margin-right: 5px;
+ margin-left: 5px;
+}
+
+nav ul{
+    background-color: rgb(240,128,128);
+	font-weight: bold;
+	line-height: 2.5em;
+	list-style-type: none;
+	padding-left: .1em;
+	font-family: Verdana, "Courier New", monospace;
+}
+
+nav ul li:hover{
+    background-color: rgb(83,142,213);
+}
+
+nav ul li a{
+    color: white;
+	text-decoration: none;
+}
+
+p{
+	font-family: "Times New Roman", Times, serif;
+	line-height: 2.25em;
+	font-size: 20px;
+}
+
+#first_topic {
+width: 80%;
+float: right;
+ margin-top: 4px;
+ margin-bottom: 20px;
+ margin-right: 20px;
+ margin-left: 5px;
+ 
+}
+
+#home_tours {
+width: 60%;
+float: left;
+ margin-left: 15px;
+  margin-right: 20px;
+}
+
+li {
+	font-family: "Times New Roman", Times, serif;
+	line-height: 2.25em;
+	font-size: 20px;
+
+}
+
+
+	button {
+  background-color: rgba(32,178,170, 0.8);
+  color: white;
+  transition-duration: 0.4s;
+  padding: 4px 25px;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 4px;
+  margin-top: 4px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: rgb(211,211,211); 
+  color: black;
+}
+
+
+#rockymountains {
+	box-shadow: 10px 10px 5px grey;
+	float:right;
+	margin-top: 15px;
+	margin-right:40px;
+}
+
+/*form styles*/
+
+fieldset{
+		background-color: rgba(211,211,211, 0.7);
+		border: 1px solid rgb(233,69,0);
+		float: left;
+		margin: 10px 0px 10px 2.5%;
+		width: 78%;
+	}
+	
+legend{
+		background-color:rgb(32,178,170);
+		color: white;
+		padding: 3px 0px;
+		text-indent: 5px;
+		width: 100%;
+	}
+
+input:focus, select:focus, textarea:focus{
+	background-color: rgba(32,178,170, 0.5);
+	}
+	
+	
+	
+/*TABLE STYLE*/
+
+#tours {
+  border: 1px solid black;
+  float: center;
+  width: 65%;
+}
+
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+#available_tours {
+width: 100%;
+float: left;
+font-family: Verdana, "Lucida Console", "Courier New", monospace;
+}
+
+figure#rockymountain, figure#grandcanyon {
+		opacity: 0.7;
+}
+
+
+figure img{
+	border-radius: 25px;
+}
+/*Contact Us Page */
+#contactUs {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  width:90%;
+  padding: 20px;
+  margin: 10px;
+}
+
+input[type=text], textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type=submit], input[type=Reset] {
+  background-color: rgb(32,178,170);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/*Covid-19*/
+
+video,audio {
+	background-color: white;
+	display: block;
+	margin: 2px auto;
+	text-align: right;
+	width: 60%;
+}
+#video_message {
+width: 60%;
+text-align:center;
+ margin-top: 4px;
+ margin-bottom: 20px;
+ margin-right: 20px;
+ margin-left: 325px;
+ 
+}
